@@ -138,11 +138,11 @@ int main()
 {
     int X = 10, z;
     int option;
-    printf("Enter the password Password to unlock:");
+    printf("Enter 128 to unlock the interface:");
     scanf("%d", &z);
     while (X)
     {
-        if (z == 0)
+        if (z == 128)
         {
             intro();
         }
